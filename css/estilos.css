@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(97, 205, 255);
+}
+
+
+
+.titulo {
+  float: left;
+  color: rgb(6, 16, 165);
+  font-size: 80px;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+.logo {
+  background: url(img\logo.png) no-repeat 80% 80%;
+  background-size: contain;
+  width: 180px;
+  height: 156px;
+  float: left;
+}
+
+.menu {
+  position: absolute;
+  right: 50px;
+}
+
+.menu a {
+  float: right;
+  color: #94a1bd;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 30px;
+  transition: color 1s;
+  /text-transform: uppercase;/
+  padding: 10px 15px;
+  margin-top: 65px;
+}
+
+.menu a:hover {
+  color: #e85860;
+}
+
+header {
+  width: 1300px;
+  height: 1004px;
+  background: url(img\fondo2.jpg) no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+nav {
+  background-color: rgb(0, 0, 4);
+  padding: 10px;
+  overflow: hidden;
+}
+
+nav a:hover {
+  color: #c8472c;
+}
+h2 {
+  font-size: 35px;
+  color: rgb(191, 6, 3);
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: justify;
+  font-size: 30px;
+}
+.caja {
+  overflow: hidden;
+  margin: 10px;
+}
+.imagen {
+  float: left;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
+.imagen2{
+  text-align: center;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
+.contenedor {
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
