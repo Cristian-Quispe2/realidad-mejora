@@ -129,7 +129,7 @@ footer p {
 .contactos-container {
   display: flex;
   gap: 20px;
-  background-color: rgb(234, 196, 53);
+  background-color: rgb(53, 125, 234);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
