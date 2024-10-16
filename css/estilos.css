@@ -38,8 +38,7 @@ body {
   font-weight: 600;
   margin-left: 30px;
   transition: color 1s;
-  /text-transform: uppercase;/
-  padding: 10px 15px;
+  /text-transform: uppercase;/ padding: 10px 15px;
   margin-top: 65px;
 }
 
@@ -64,33 +63,93 @@ nav {
 nav a:hover {
   color: #c8472c;
 }
+
 h2 {
-  font-size: 35px;
+  font-size: 40px;
   color: rgb(191, 6, 3);
+  margin-left: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
 }
 
 p {
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: justify;
   font-size: 30px;
 }
+
 .caja {
   overflow: hidden;
-  margin: 10px;
 }
+
 .imagen {
   float: left;
   margin: 10px;
   width: 400px;
   height: auto;
 }
-.imagen2{
+
+.imagen2 {
   text-align: center;
   margin: 10px;
   width: 400px;
   height: auto;
 }
+
 .contenedor {
-  text-align: center; /* Centra el contenido dentro del contenedor */
+  margin: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+footer p {
+  text-align: center;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.contactos-container {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(234, 196, 53);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contacto-item {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contacto-item h3 {
+  margin-bottom: 10px;
+  color: rgb(6, 123, 194);
+  font-size: 35px;
+}
+
+.contacto-item p {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 25px;
 }
